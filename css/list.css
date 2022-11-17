@@ -1,0 +1,127 @@
+.nav {
+  overflow: hidden;
+}
+.sk {
+  position: absolute;
+  top: 43px;
+  left: 190px;
+  width: 56px;
+  height: 26px;
+  line-height: 20px;
+  border-left: 1px solid rgb(201, 31, 33);
+  padding-left: 14px;
+}
+.sk_list {
+  float: left;
+}
+.sk_list ul li {
+  float: left;
+}
+.sk_list ul li a {
+  display: block;
+  margin: 0 30px;
+  line-height: 47px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.sk_con {
+  float: left;
+}
+.sk_con ul li {
+  float: left;
+}
+.sk_con ul li a {
+  display: block;
+  margin: 0 20px;
+  line-height: 49px;
+  font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+  font-family: "icomoon";
+  content: "\e91e";
+}
+.sk_hd {
+  position: relative;
+}
+.sk_hd_eff img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.8s linear;
+}
+.sk_hd:hover .sk_hd_eff img {
+  visibility: visible;
+  opacity: 1;
+}
+.sk_bd ul li {
+  float: left;
+  margin-right: 13px;
+  width: 290px;
+  height: 460px;
+  border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.sk_bd ul li:hover {
+  border: 1px solid rgb(176, 31, 24);
+}
+.sk_bd ul li img {
+  padding: 20px 80px 26px;
+}
+.sk_bd ul li p {
+  padding: 0 10px 0 13px;
+}
+.sk_price {
+  margin: 6px 0 5px 10px;
+  color: rgb(225, 25, 26);
+}
+.sk_bd ul li h1 {
+  display: inline-block;
+  font-size: 22px;
+}
+.sk_bd ul li i {
+  display: inline-block;
+}
+.sk_price em {
+  font-size: 14px;
+  color: rgb(163, 163, 163);
+  text-decoration: line-through;
+  font-weight: 600;
+}
+.sk_bar {
+  margin-left: 12px;
+}
+.bar_out {
+  display: inline-block;
+  padding: 1px;
+  margin: 0 10px;
+  width: 134px;
+  height: 13px;
+  border: 1px solid rgb(238, 49, 42);
+  border-radius: 7px;
+}
+.bar_in {
+  width: 87%;
+  height: 100%;
+  border-radius: 7px;
+  background-color: rgb(238, 49, 42);
+  transition: all 0.7s;
+}
+.bar_out:hover .bar_in {
+  width: 100%;
+}
+.sk_bd a {
+  display: block;
+  margin-top: 8px;
+  width: 100%;
+  height: 51px;
+  line-height: 51px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgb(176, 31, 24);
+}
